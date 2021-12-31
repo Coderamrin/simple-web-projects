@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.layout-1 {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  width: 500px;
+  height: 500px;
+  background: url('./hero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 10;
+  margin-right: -150px;
+}
+
+.right {
+  width: 500px;
+  height: 600px;
+  background-color: brown;
+}
