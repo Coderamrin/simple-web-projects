@@ -24,7 +24,6 @@ body {
 }
 
 .card {
-  /* padding: 20px; */
   background-color: rgb(172, 189, 182);
   margin: 0 10px;
   display: flex;

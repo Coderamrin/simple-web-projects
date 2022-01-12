@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="flex justify-between bg-blue-800 text-white text-xl py-5 px-10"
+      >
+        <a href="#" class="logo">MY Project</a>
+
+        <div
+          class="nav__links flex flex-col text-center absolute top-20 bg-blue-700 w-full m-auto left-0 right-0 transform translate-x-full duration-500 md:static md:w-auto md:flex-row md:translate-x-0 md:m-0"
+        >
+          <a href="#" class="py-4 hover:bg-blue-500 md:px-5">Home</a
+          ><a href="#" class="py-4 hover:bg-blue-500 md:px-5">About</a
+          ><a href="#" class="py-4 hover:bg-blue-500 md:px-5">Contacts</a
+          ><a href="#" class="py-4 hover:bg-blue-500 md:px-5">Blog</a>
+        </div>
+
+        <button class="hamburger md:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-10 w-10"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
